@@ -1,6 +1,6 @@
-import Hero from './components/Hero';
-import Experience from './components/Experience';
-import SkillsEducation from './components/SkillsEducation';
+import Hero from './components/HeroSection';
+import Experience from './components/ExperienceSection';
+import SkillsEducation from './components/SkillsSection';
 
 function App() {
   return (
