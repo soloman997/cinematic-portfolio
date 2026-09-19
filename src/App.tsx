@@ -1,20 +1,15 @@
-import React from 'react';
-import { HeroSection } from './components/HeroSection';
-import { AboutSection } from './components/AboutSection';
-import { ProjectsSection } from './components/ProjectsSection';
-import { SkillsSection } from './components/SkillsSection';
-import { ExperienceSection } from './components/ExperienceSection';
-import { ContactSection } from './components/ContactSection';
+import Hero from './components/Hero';
+import Experience from './components/Experience';
+import SkillsEducation from './components/SkillsEducation';
 
 function App() {
   return (
-    <div className="w-full min-h-screen bg-black text-[#E8DFD8] selection:bg-[#cbb59d] selection:text-black">
-      <HeroSection />
-      <AboutSection />
-      <ProjectsSection />
-      <SkillsSection />
-      <ExperienceSection />
-      <ContactSection />
+    <div className="min-h-screen bg-[#0B101E] text-[#F3F4F6] font-sans selection:bg-[#06B6D4] selection:text-white">
+      <main className="max-w-5xl mx-auto px-6 py-16 md:py-24 space-y-24">
+        <Hero />
+        <Experience />
+        <SkillsEducation />
+      </main>
     </div>
   );
 }
